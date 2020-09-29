@@ -9,7 +9,7 @@ for (dirpath, dirnames, filenames) in walk('./cv/'):
 items = ['linux','cloud','container','docker','terraform','git']
 
 results = {
-    'linux'         : ['linux','debian','centos','rhce'],
+    'linux'         : ['linux','debian','centos','rhce','ubuntu'],
     'cloud'         : ['cloud','aws','azure','gcp'],
     'git'           : ['git'],
     'container'     : ['container','docker','lxc'],
