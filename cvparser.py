@@ -40,7 +40,8 @@ for cv in cvs:
                     total += res
                     break
             output += str(res) + ','
-        data += "%s %s %i\t\t\t%s\n" % (line,output,total,cv)
+        #data += "%s %s %i\t\t\t%s\n" % (line,output,total,cv)
+        data += "%s %i\t\t\t%s\n" % (output,total,cv)
         
 f = open("./data.txt", "w")
 f.write(data)
