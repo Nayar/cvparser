@@ -1,0 +1,7 @@
+- What kind of automation have you setup in place?
+- Do you have experience with containers?
+-- What are the advantages of using containers?
+- What are the security steps you would take when setting up a LAMP stack?
+- What are the diffenrences between docker and kubernetes?
+- Have you heard of Infrastructure as Code?
+- Can you list some features of systemd?
